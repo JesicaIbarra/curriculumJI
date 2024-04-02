@@ -224,75 +224,144 @@ html{
   
 }
 
-#servicios{
-    text-align: center;
+#curriculum{
     padding: 150px 15px;
     background-color: #f3f3f3;
 }
 
-#servicios .titulo-seccion{
+#curriculum .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+#curriculum .contenido-seccion .titulo-seccion{
     font-size: 22px;
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
     text-decoration-color:rgba(0,0,0, .9);
-     /* #d3d3d3 ; */
+    text-align: center;
     text-decoration-thickness: 5px;
+    margin-bottom: 40px;
 }
 
-#servicios .fila{
+#curriculum .h3{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+}
+#curriculum .fila{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1100px;
-    margin: 30px auto;
+
 }
 
-#servicios .fila .servicio{
-    max-width: 350px;
-    background-color: #fff;
-    padding: 30px;
-    margin: 10px 5px;
-    border-radius: 5px;
-    transition: .5s;
+#curriculum .fila .col{
+   width: 49%;
+   padding: 0 50px;
 }
 
-#servicios .fila .servicio:hover{
-    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
-}
-
-#servicios .fila .servicio h3{
-    font-size: 22px;
-    margin-bottom: 35px;
-}
-
-#servicios .fila .servicio .icono{
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    background-color: #d3d3d3;
-    padding: 20px;
+#curriculum .fila .col h4{
+    font-size: 28px;
     margin-bottom: 25px;
 }
 
-#servicios .fila .servicio hr{
-    width: 30%;
-    margin: 25px auto;
-    color: #000;
-   
+#curriculum .fila .izquierda{
+    border-right: 2px solid #000;
 }
 
-#servicios .fila .servicio ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
+#curriculum .fila .derecha{
+    border-left: 2px solid #000;
+}
+
+#curriculum .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    position: relative;
+}
+
+#curriculum .fila .item h4{
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
-#servicios .fila .servicio p{
-    font-size: 13px;
-    line-height: 22px;
+#curriculum .fila .item .institucion{
+    color: #fa4197;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+#curriculum .fila .item .fecha{
+    display: block;
+    color: #fa4197;
+    margin-bottom: 10px;
+}
+
+#curriculum .fila .col .izq{
+    border-right: 2px solid #fa4197;
+    margin-right: 20px;
+}
+
+#curriculum .fila .col .der{
+    border-left: 2px solid #fa4197;
+    margin-left: 20px;
+}
+
+#curriculum .fila .col .der a{
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    color: #fa4197;
+    border: 2px solid #fa4197;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#curriculum .fila .col .conectori{
+    height: 2px;
+    background-color: #fa4197;
+    width: 47px;
+    position: absolute;
+    top :50%;
+    right: -47px;
+    z-index: 5;
+}
+
+#curriculum .fila .col .conectori .circuloi{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #fa4197;
+    float: right;
+    position: relative;
+    bottom: 4px;
+
+}
+
+#curriculum .fila .col .conector{
+    height: 2px;
+    background-color: #fa4197;
+    width: 47px;
+    position: absolute;
+    top :50%;
+    left: -47px;
+    z-index: 5;
+}
+
+#curriculum .fila .col .conector .circulo{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #fa4197;
+    float: left;
+    position: relative;
+    bottom: 4px;
+
 }
 
 .contenedor-skills{
@@ -301,7 +370,7 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 100px 0;
+    padding: 130px 0;
     text-align: center;
 }
 
@@ -372,6 +441,30 @@ html{
     animation: progreso6 5s forwards;
 }
 
+.contenedor-skills .skill .barra .barra-progreso7{
+    background-color: #fff;
+    width: 75%;
+    height: 6px;
+    animation: progreso6 5s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso8{
+    background-color: #fff;
+    width: 90%;
+    height: 6px;
+    animation: progreso6 5s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso9{
+    background-color: #fff;
+    width: 90%;
+    height: 6px;
+    animation: progreso6 5s forwards;
+}
+
+
+
+
 @keyframes progreso1 {
     0%{
         width: 0;
@@ -428,6 +521,36 @@ html{
     }
     100%{
         width: 65%;
+    }
+    
+}
+
+@keyframes progreso7 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+    
+}
+
+@keyframes progreso9 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+    
+}
+
+@keyframes progreso9 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
     }
     
 }
@@ -652,17 +775,23 @@ footer .redes a:hover{
         text-align: center;
     }
 
-    #servicios{
+    /* #curriculum{
         padding: 120px 15px;
-    }
+    } */
 
-    #servicios .fila{
+    #curriculum .fila{
         display: block;
     }
 
-    #servicios .fila .servicio{
-        margin: 10px auto;
+    #curriculum .fila .col{
+        width: 90%;
     }
+
+    #curriculum .fila .derecha{
+        margin-left: 20px;
+    }
+
+    
 
     .contenedor-skills{
         padding: 50px 20px;

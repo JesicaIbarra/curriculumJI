@@ -33,6 +33,9 @@ function efectoHabilidades(){
         document.getElementById("gitHup").classList.add("barra-progreso4");
         document.getElementById("canva").classList.add("barra-progreso5");
         document.getElementById("ps").classList.add("barra-progreso6");
+        document.getElementById("ss").classList.add("barra-progreso7");
+        document.getElementById("of").classList.add("barra-progreso8");
+        document.getElementById("out").classList.add("barra-progreso9");
     }
 }
 
