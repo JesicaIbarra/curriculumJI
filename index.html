@@ -35,16 +35,10 @@
             </header>
             <div class="presentacion">
                 <p class="bienvenidos">Benvenuti</p>
-                <h1>Sono <span>Jesica Ibarra</span>, Tecnica in Informatica e Developer FrontEnd Junior</h1>
-                <p class="descripcion">Sono Jesica Giselle Ibarra, ho 34 anni, mi
-                    considero una persona responsabile e impegnata
-                    nel lavoro, sono
-                    perseverante e mi piace imparare costantemente,
-                    mi sento a mio agio a lavorare in squadra e do
-                    sempre il mio pieno appoggio affinché i lavori
-                    vengano svolti nel migliore modo possibile perché sono molto attento ai dettagli.
+                <h1>Sono <span>Jesica Ibarra</span>Tecnica in Informatica e Developer FrontEnd Junior</h1>
+                <p class="descripcion"> Mi identifico come una persona responsabile e dedicata al lavoro. Sono appassionata di crescita professionale e mi impegno costantemente per sviluppare le mie competenze in modo efficiente.
                 </p>
-                <a href="#portafolio">Accedi al Portfolio</a>
+                <a href="#curriculum">Accedi al Curriculum</a>
 
             </div>
 
@@ -58,9 +52,22 @@
             <p class="titulo-seccion">Sul Mi</p>
             <h2>Ciao, sono <span>Jesica Giselle Ibarra</span></h2>
             <h3>Sviluppo Web</h3>
-            <p>ho 34 anni. Sono una professionista impegnata e responsabile, con una passione per la crescita e l'apprendimento continuo. Sono caratterizzato dalla mia perseveranza e dalla mia costante ricerca di miglioramento in tutti i miei compiti.</p>
-            <p>Una delle mie principali motivazioni è quella di allenarmi costantemente per svilupparmi professionalmente e offrire prestazioni efficienti in qualsiasi progetto che intraprendo. Mi piace affrontare nuove sfide e adattarmi a diversi ambienti di lavoro.</p>
-            <a href="#">Descarica CV</a>
+            <p>
+                Mi chiamo Jesica Giselle Ibarra, ho 34 anni e sono originaria dell'Argentina. Sono arrivato in Italia nel giugno 2023 insieme a mio marito e ai nostri tre figli: Ludmilla (8 anni), Lautaro (13 anni) e Brisa (14 anni).
+            </p>
+
+            <p>
+                Durante la mia carriera in Argentina, ho ricoperto la carica di Personale Militare nella Marina Argentina, in particolare come Furriel nell'area amministrativa. Dopo aver deciso di richiedere il congedo volontario, mi sono imbarcata in una nuova fase di crescita professionale e mi sono formata come insegnante di informatica, una disciplina che dettaglia con precisione il mio curriculum.
+            </p> 
+                
+            <p>
+                La mia costante determinazione e voglia di imparare sono attributi che mi definiscono. Mi piace il lavoro di squadra e sono sempre pronta a offrire il mio pieno sostegno per garantire il successo di ogni progetto a cui partecipo. Sono meticolosa e sono particolarmente attenta ai dettagli, consapevole della loro importanza nel raggiungimento degli obiettivi di lavoro.
+            </p>
+                
+            <p>
+                Sono entusiasta dell'opportunità di contribuire al successo della vostra azienda, portando il mio impegno, esperienza e competenze.
+            </p>
+            <a href="CurriculumJesicaIbarra.pdf" target="_blank">Descarica CV</a>
         </div>
     </section>
     <section id="curriculum" class="curriculum">
@@ -153,6 +160,7 @@
                 </div>
                 
             </div>
+            <a href="CurriculumJesicaIbarra.pdf" target="_blank">Descarica CV</a>
         </div>
         
     </section>
@@ -243,16 +251,16 @@
     <section id="contacto">
         <h3 class="titulo-seccion">Contattami</h3>
         <div class="contenedor-form">
-            <form action="">
+            <form action="https://formsubmit.co/jesicagiselleibarra89@gmail.com" method="POST" required>
                 <div class="fila mitad">
-                    <input type="text" placeholder="Nome e Cognome" class="input-mitad">
-                    <input type="text" placeholder="Indirizzo e-mail" class="input-mitad">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nome e Cognome" class="input-mitad" required>
+                    <input type="email" name="email" id="email" placeholder="Indirizzo e-mail" class="input-mitad" required>
                 </div>
                 <div class="fila">
-                    <input type="text" placeholder="Team..." class="input-full">
+                    <input type="text" name="tema" id="tema" placeholder="Team..." class="input-full" required>
                 </div>
                 <div class="fila">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Lasciate un messaggio..." class="input-full"></textarea>
+                    <textarea name="vomentario" id="comentario" cols="30" rows="10" placeholder="Lasciate un messaggio..." class="input-full" required></textarea>
                 </div>
                 <input type="submit" value="Invia messaggio" class="btn-enviar">
             </form>
