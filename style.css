@@ -784,11 +784,24 @@ footer .redes a:hover{
     }
 
     #curriculum .fila .col{
-        width: 90%;
+        width: 100%;
+        padding: 0;
+        
     }
 
     #curriculum .fila .derecha{
-        margin-left: 20px;
+        margin-left: 5px;
+        border-left: none;
+
+    }
+
+    #curriculum .fila .izquierda{
+        border-right: none;
+        margin-left: 5px;
+    }
+
+    #curriculum .fila .col .conectori ,#curriculum .fila .col .conectori .circuloi , #curriculum .fila .col .conector, #curriculum .fila .col .conector .circulo  {
+        display: none;
     }
 
     
