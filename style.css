@@ -460,21 +460,21 @@ html{
     background-color: #fff;
     width: 75%;
     height: 6px;
-    animation: progreso6 5s forwards;
+    animation: progreso7 5s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso8{
     background-color: #fff;
     width: 90%;
     height: 6px;
-    animation: progreso6 5s forwards;
+    animation: progreso8 5s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso9{
     background-color: #fff;
     width: 90%;
     height: 6px;
-    animation: progreso6 5s forwards;
+    animation: progreso9 5s forwards;
 }
 
 
